@@ -1,0 +1,13 @@
+.smoke {
+    opacity: 0.5;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+@media (max-width: 1365px) {
+    .smoke {
+        visibility: hidden;
+    }
+}

@@ -1,0 +1,11 @@
+.container {
+    margin-top: 24px;
+    position: relative;
+}
+
+.rocket {
+    height: 400px;
+    position: absolute;
+    z-index: 999;
+    transform: translate(-50%, 0);
+}

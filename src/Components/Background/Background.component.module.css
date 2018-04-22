@@ -1,0 +1,32 @@
+.backgroundItems {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.stars {
+    composes: backgroundItems;
+    background: black url("../../Assets/stars.png");
+    z-index: -3;
+}
+
+.alpha {
+    composes: backgroundItems;
+    background: url("../../Assets/alpha.png");
+    z-index: -2;
+    animation: stargazing 300s linear infinite;
+}
+
+.nebula {
+    composes: backgroundItems;
+    background: url("../../Assets/nebula.png");
+    z-index: -1;
+    opacity: 0.15;
+}
+
+@keyframes stargazing {
+    from { background-position: 0 0}
+    to { background-position: -10000px 5000px;}
+}
