@@ -4,7 +4,7 @@
 }
 
 .rocket {
-    height: 400px;
+    width: 200px;
     position: absolute;
     z-index: 999;
     transform: translate(-50%, 0);
