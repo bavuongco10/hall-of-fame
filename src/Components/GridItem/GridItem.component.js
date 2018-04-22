@@ -7,7 +7,7 @@ const GridItem = ({ id, title, fact }) => (
   <div className={styles.item}>
     <Badge/>
     <h2>{title}</h2>
-    <article>{fact}</article>
+    <article className={styles.article}>{fact}</article>
   </div>
 );
 
